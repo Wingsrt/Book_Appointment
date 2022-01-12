@@ -1,0 +1,92 @@
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color:#f76b8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    /* box-shadow:  0 0 10px rgb(46, 46, 187); */
+    box-shadow: 0 0 10px rgb(58, 56, 56);
+
+}
+
+.profilebut{
+    width: 90px;
+    height: 40px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 10px rgb(83, 94, 143);
+}
+
+.logbut{
+    width: 90px;
+    height: 40px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    border-left: 1px solid white;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgb(83, 94, 143);
+
+   
+
+}
+
+.navbut{
+    margin-left: 20%;
+}
+
+.logbut:hover{
+    box-shadow: 0 0 10px rgb(107, 243, 232);
+
+
+}
+.profilebut:hover{
+    box-shadow: 0 0 10px rgb(107, 243, 232);
+
+
+}
+
+
+
+.hospitalheading{
+    font-family: Lucida Console,"Monospace";
+    font-size: 37px;
+    margin-left: 30%;
+  
+}
+
+.butmenu{
+    display: none;
+}
+
+
+@media only screen and (max-width:450px) {
+
+    .logbut{    
+        display: none;
+     
+    }
+
+    .profilebut{
+        display: none;
+    }
+
+    .butmenu{
+        display: block;
+        margin-left: 40px;
+    }
+
+    .hospitalheading{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+   
+    
+}

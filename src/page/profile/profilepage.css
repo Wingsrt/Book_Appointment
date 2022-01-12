@@ -1,0 +1,117 @@
+
+.probox{
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 0px 20px rgb(83, 83, 83);
+    margin-left: 20%;
+    margin-top: 10%;
+    display: flex;
+}
+
+.usernn{
+    color: rgb(255, 251, 251);
+}
+
+
+
+
+
+
+.passedit{
+
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: 5%;
+    border: none;
+    background: none;
+    border-bottom:2px solid rgb(255, 255, 255);
+    
+
+}
+
+.passedit::placeholder{
+    color: white;
+}
+
+.inbox{
+
+    /* border: 2px solid black; */
+    justify-content: center;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+   padding-left: 10px;
+
+    background-color: rgb(91, 94, 248);
+}
+
+.apbox{
+    width: 270px;
+   
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(177, 176, 176);
+    margin-bottom: 10px;
+}
+
+.imgu{
+
+    width: 100px;
+    height: 100px;
+border-radius: 50px;
+margin-left: 20%;
+
+
+}
+
+
+@media only screen and (max-width:550px){
+
+    .probox{
+
+        display: block;
+        width: 300px;
+        margin-left: 7%;
+        
+    }
+
+
+    .inbox{
+       
+    width: 300px;
+    height: 500px;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    
+
+    }
+
+    .imgu{
+
+        /* width: 100px;
+        height: 100px;
+    border-radius: 50px; */
+    /* margin-left: 20%; */
+    margin-right: 14%;
+    
+    
+    }
+
+    .apbox{
+        margin-left: 20px;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .imm{
+        visibility: hidden;
+    }
+
+
+}

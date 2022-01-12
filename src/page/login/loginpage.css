@@ -1,0 +1,61 @@
+.loginbox{
+    width: 300px;
+    height: 400px;
+    border: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0 0 10px rgb(145, 142, 142);
+        box-shadow: 0 0 10px rgb(165, 164, 164);
+        margin-left: 40%;
+        margin-top: 10%;
+       
+
+}
+
+.loginhead{
+    margin-left: 40%;
+}
+
+.i{
+
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-left: 4%;
+    margin-top: 70px;
+}
+
+.logla{
+    font-family: Andale Mono, monospace;
+    color: rgb(100, 100, 100);
+    margin-left: 2%;
+    margin-top: 30px;
+    position: absolute;
+    
+}
+
+.innerdiv{
+    display: flex;
+    justify-content:center;
+   
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.logbutton{
+    width: 50%;
+    margin-left: 20px;
+    
+
+}
+
+.butdiv{
+    width: 200px;
+    height: 60px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;margin-left: 10%;
+}

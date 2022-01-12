@@ -1,0 +1,136 @@
+.box{
+    width: 70%;
+    /* border: 2px solid purple; */
+    display: flex;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    margin-left: 16%;
+    justify-content: center;
+    align-items: center;
+}
+
+.reciptbutton{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(75, 255, 68);
+    color: rgb(31, 23, 23);
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+
+
+.innerbox{
+
+    width: 25%;
+    height: 16%;
+    margin: 10px;
+    /* background-color: yellow; */
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow:  0 0 10px rgb(220, 220, 221);
+    box-shadow: 0 0 10px rgb(204, 202, 202);
+
+}
+.icon{
+    width: 120px;
+    height: 120px;
+}
+
+.innerbox:hover{
+    box-shadow:  0 0 10px rgb(212, 212, 241);
+    box-shadow: 0 0 10px rgb(247, 231, 231);
+
+}
+
+.box2{
+    
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
+    
+}
+.docname{
+    /* background-color: blue; */
+
+}
+.docage{
+
+    margin-top: 0%;
+}
+
+.docfeild{
+    padding-bottom: 30px;
+}
+.xp{
+
+    text-decoration: none;
+    margin-bottom: 10px;
+   
+
+}
+.butmenu{
+
+    width: 50px;
+    background-color: rgb(56, 255, 72);
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+
+
+
+}
+
+.sidebar{
+    width: 400px;
+    height: 900px;
+    background-color:white;
+    border-radius:6px;
+    position: absolute;
+    margin-left: -200px;
+    transition: 0.4s;
+    box-shadow:  0 0 10px rgb(220, 220, 221);
+    z-index: 1;
+}
+
+
+
+@media only screen and (max-width:450px) {
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+    }
+
+    .innerbox{
+
+        /* height: 40px; */
+        width:70%;
+        margin-bottom: 20%;
+        /* background-color: yellow; */
+         /* width: 200px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(75, 255, 68);
+        color: rgb(31, 23, 23);
+         margin-left: 60%; 
+         margin-bottom: 20px;  */
+
+    }
+    .reciptbutton{
+        margin-left: 24%;
+    }
+    
+}
