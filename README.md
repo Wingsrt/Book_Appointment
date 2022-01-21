@@ -1,18 +1,31 @@
-# Getting Started with Create React App
+# THIS APP IS FOR BOOKING DOCTORS APPOINMENT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is built by React.js  and Redux with help of mongodb for database.
 
-## Available Scripts
+## Solo project
 
-In the project directory, you can run:
+-[Shantanu pathak](https://github.com/Wingsrt)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A user can book slot of doctors
+- A user can see doctors details
+- A user can cancel its slot at any time
+- Hospital reception pannel is given
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Teachnology use
+
+- React.js
+- Redux
+- Mongodb
+- Node.js
+- Express.js
+
+## Live deployment link
+
+-[WATCH LIVE](https://doctor-appointment.vercel.app/)
+
+
 
 ### `npm test`
 
