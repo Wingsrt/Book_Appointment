@@ -13,7 +13,7 @@ This project is built by React.js  and Redux with help of mongodb for database.
 - A user can cancel its slot at any time
 - Hospital reception pannel is given
 
-## Teachnology use
+## Teach use
 
 - React.js
 - Redux
